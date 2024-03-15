@@ -1,0 +1,807 @@
+@media(max-width:1190px) {
+  .form__img {
+    width: 450px;
+    height: 400px;
+  }
+}
+@media(max-width:1112px) {
+.slider__text-inner {
+    left: 105px;
+}
+.footer {
+    &__menu {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  
+}
+@media(max-width:1110px) {
+    .slider__text-inner {
+        left: 198px;
+    }
+    }
+    @media (max-width: 1024px){
+    .slider__text-inner {
+        left: 180px;
+    }
+}
+@media (max-width: 1000px){
+  .form {
+    &__title {
+      margin-bottom: 35px;
+      font-size: 35px;
+    }
+    &__program-name {
+      width: 300px;
+      height: 60px;
+      margin-bottom: 25px;
+      padding: 20px 20px;
+      font-size: 20px;
+    }
+    &__program-lastname {
+      width: 300px;
+      height: 60px;
+      margin-bottom: 25px;
+      padding: 20px 20px;
+      font-size: 20px;
+    }
+    &__program-btn {
+      width: 300px;
+      height: 60px;
+      margin-bottom: 25px;
+      padding: 20px 20px;
+      font-size: 20px;
+    }
+  }
+}
+@media (max-width: 971px)
+{
+.program__title {
+  font-size: 35px;
+}
+.program {
+  padding: 100px;
+}
+.programm__item-img {
+  width: 100px;
+  height: 100px;
+}
+.programm__item-text {
+  font-size: 18px;
+}
+}
+@media (max-width: 912px)
+{
+.slider__text-inner {
+    left: 154px;
+}
+}
+@media (max-width: 905px)
+{
+.drive {
+    padding-bottom: 70px;
+}
+.drive {
+    
+    background: rgb(20, 20, 20);
+    &__item-img {
+      margin-right: 32px;
+      width: 50px;
+      height: 50px;
+    }
+    &__item-title {
+      font-size: 25px;
+      font-weight: 600;
+      line-height: 140%;
+      letter-spacing: 5%;
+      text-transform: uppercase;
+      text-align: left;
+    }
+    &__item-text {
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 120%;
+      letter-spacing: 3%;
+    }
+    &__list-items {
+        margin-bottom: 50px;
+      }
+}
+.drive__item-bottom {
+    font-size: 14px;
+}
+.shower__images {
+    margin-bottom: 40px;
+}
+.drive__wripper-img {
+    width: 500px;
+    height: 500px;
+}
+.drive__cars-content .slick-prev {
+    top: 560px;
+  }
+  .drive__cars-content .slick-next {
+    top: 560px;
+  }
+}
+@media(max-width:900px) {
+    .shower {
+        &__info {
+            margin-right: 50px;
+        }
+        &__title {
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+        &__figure-img {
+            width: 25px;
+            height: 50px;
+        }
+        &__figure-text {
+            font-size: 15px;
+        }
+      }      
+      .gallery__cars {
+        overflow-x: scroll;
+      }
+      .slider__text-inner {
+        left: 148px;
+    }
+    .autocars__title {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    .autocars {
+        padding-bottom: 25px;
+    }
+    .oneday {
+      padding-bottom: 45px;
+      &__title {
+        font-size: 25px;
+        margin-bottom: 15px;
+      }
+      .oneday__items::before {
+        content: '';
+        height: 259px;
+      }
+      .oneday__item::before {
+        content: '';
+        top: -6px;
+      }
+      &__item {
+        margin-bottom: 25px;
+        position: relative;
+      }
+      &__item-txt {
+        font-size: 20px;    
+        span {
+          font-weight: 600;
+        }
+      }
+    }
+    .twoday {
+      padding-bottom: 45px;
+      &__title { 
+        font-size: 25px;
+        margin-bottom: 15px;
+      }
+      &__items {
+        padding-left: 40px;
+        position: relative;
+      }
+    
+    
+      &__items::before {
+        height: 260px;
+      }
+    
+      &__item {  
+        margin-bottom: 25px;
+        position: relative;
+      }
+    }
+    .twoday__item-text {
+      font-size: 20px;
+    }
+    .day-items li {
+      margin-bottom: 25px;
+    }
+    .threeday {
+      padding-bottom: 45px;    
+      &__items::before {
+        content: '';
+        height: 263px;
+      }
+    
+      &__items {
+        padding-left: 40px;
+        position: relative;
+      }
+    }
+    .treeday__title {
+      font-size: 25px;
+      font-weight: 600;
+      line-height: 110%;
+      letter-spacing: 3%;
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    .threeday__item-text {
+      font-size: 20px;
+    }
+}
+@media(max-width:820px) {
+    .slider__text-inner {
+        left: 125px;
+    }
+    .form__img {
+      margin-top: 150px;
+      width: 350px;
+      height: 200px;
+    }
+}
+@media(max-width:785px) {
+    .drive__inner {
+        display: block;
+    }
+    .footer {
+        &__menu {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+        }
+        font-size: 20px;
+      }
+    .drive__cars-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+}
+@media(max-width:768px) {
+
+    .header {
+        &__inner {
+            padding-bottom: 60px;
+        }
+        &__menu {
+            display: none;
+        }
+        &__midle {
+            margin-bottom: 50px;
+        }
+        &__midle-title {
+            margin-top: 70px;
+            font-size: 60px;
+          
+        }
+        &__midle-subtitle {
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+        &__midle-button {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 140%;
+            letter-spacing: 5%;
+            text-align: center;
+            text-transform: uppercase;
+            padding: 10px 40px;
+            background: rgb(219, 49, 56);
+            border-radius: 5px;
+        }
+        &__bottom-item {
+            padding: 10px;
+        }
+        &__bottom-img {
+            height: 50px;
+            width: 50px;
+            margin-bottom: 5px;
+        }
+        &__bottom-text {
+            letter-spacing: 5%;
+            text-align: center;
+            font-size: 18px;
+            
+        }
+      }  
+      .gallery__car-img {
+        width: 150px;
+        height: 150px;
+      }
+      .shower {
+        &__inner {
+            padding-bottom: 25px;
+        }
+        &__info {
+            margin-right: 25px;
+        }
+        &__title {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        &__text {
+            font-size: 15px;
+            text-align: justify;
+        }
+
+        &__figure-menu {
+            width:200px;
+            margin-top: 20px;
+        }
+        &__figure-img {
+            width: 15px;
+            height: 25px;
+        }
+        &__figure-text {
+            font-size: 10px;         
+        }
+      }    
+      .shower__images {
+        margin-bottom: 40px;
+      }   
+      .slider__text-inner {
+       left: 117px;;
+    }
+    .autocars__title {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .autocars {
+        padding-bottom: 15px;
+    }
+    .header__menu {
+      display: none;
+    }
+}
+
+@media(max-width:800px) {
+  .form {
+    &__program {
+      padding-bottom: 70px;
+  }
+}
+    .slider__text-inner {
+        left: 121px;
+     }
+     .gallery {
+        padding-bottom: 50px;
+        &__title {
+          font-size: 25px;
+          margin-bottom: 20px;
+        }
+        .gallery__images-rombik {
+          margin-bottom: 20px;
+        }
+        .gallery__car-img {
+          width: 150px;
+          height: 150px;
+        }
+      }
+}
+@media(max-width:747px) {
+  .threeday {
+    &__items::before {
+    display: none;
+    }
+
+  
+    &__item::before {
+      display: none;
+    }
+  }
+  .twoday {
+    &__items::before {
+    display: none;
+    }
+
+  
+    &__item::before {
+      display: none;
+    }
+  }
+  .oneday {
+    &__items::before {
+    display: none;
+    }
+
+  
+    &__item::before {
+      display: none;
+    }
+  }
+}
+@media(max-width:739px) {
+    .slider__text-inner {
+        left: 283px;
+     }
+     .about {
+        padding-bottom: 50px;
+        &__title {
+          font-size: 25px;
+          margin-bottom: 10px;
+        }
+        &__text {
+          margin-bottom: 25px;
+          font-size: 18px;
+        }
+        &__info-items {
+          gap: 65px;
+        }
+        &__info-item {
+          margin-right: 25px;
+      
+        }
+        &__info-title {
+          font-size: 15px;
+          font-weight: 700;
+          line-height: 18px;
+        }
+      }
+      .program__items {
+        display: grid;
+        grid-row: auto;
+      }
+}
+
+@media(max-width:680px) {
+    .footer {
+        font-size: 15px;
+      }
+}
+@media(max-width:640px) {
+    .ask {
+        padding-bottom: 50px;
+        &__title {
+          font-size: 25px;
+          margin-bottom: 10px;
+        }
+        &__name {
+          width: 300px;
+          height: 40px;
+          margin-bottom: 20px;
+          font-size: 25px;
+        }
+        &__lastname {
+            width: 300px;
+            height: 40px;
+            margin-bottom: 20px;
+            font-size: 25px;
+        }
+        &__button {
+            width: 300px;
+            height: 40px;
+            margin-bottom: 20px;
+            font-size: 25px;
+        }
+      }
+      .form {
+        &__program {
+          padding-bottom: 25px;
+      }
+        &__inner {
+        display: block;
+        margin: 0 auto;
+        }
+        &__box {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 5px;
+          margin-left: 25px;
+        }
+      }
+      .form__img {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 25px;
+      
+      }
+    }
+
+@media(max-width:550px) {
+  .program__title {
+    font-size: 18px;
+  }
+  .program {
+    padding: 25px 0;
+    padding-bottom: 50px;
+  }
+    .slider__text-inner {
+        left: 192px;
+     }
+     .footer {
+        font-size: 10px;
+      }
+}
+@media(max-width:500px) {
+  .footer {
+    &__contact-item {
+      margin-bottom: 10px;
+    }
+    .footer__images {
+      margin-bottom: 7px;
+    }
+  }
+  
+   
+  .drive__wripper-img {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+  
+  }
+  .drive__item-slider {
+    margin-bottom: 20px;
+  }
+  .drive__cars-content .slick-prev {
+    top: 270px;
+    right:20px;
+  }
+  .drive__cars-content .slick-next {
+    top: 270px;
+    left: 20px;
+  }
+ 
+  .drive__item-bottom {
+    font-size: 12px;
+  }
+    .header__bottom-img {
+        height: 25px;
+        width: 25px;
+        margin-bottom: 5px;
+    }
+    .header__inner {
+        padding-bottom: 25px;
+    }
+    .header__bottom-text {
+        letter-spacing: 5%;
+        text-align: center;
+        font-size: 10px;
+    }
+    .header__midle-button {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 5%;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 5px 20px;
+        background: rgb(219, 49, 56);
+        border-radius: 5px;
+    }
+    .header__midle-subtitle {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .header__midle-title {
+        margin-top: 50px;
+        font-size: 40px;
+    }
+    .shower {
+        &__inner {
+            padding-bottom: 25px;
+        }
+        &__title {
+            font-size: 15px;
+        }
+        &__text {
+            font-size: 10px;
+            text-align: justify;
+        }
+        &__figure-menu {
+            width: 150px;
+            margin-top: 15px;
+        }
+        &__figure-img {
+            width: 15px;
+            height: 25px;
+        }
+        &__figure-text {
+            font-size: 8px;         
+        }
+      }    
+      .shower__images {
+        margin-bottom: 20px;
+      }   
+      .shower__info {
+        margin-right: 10px;
+      }
+      .autocars__title {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .autocars {
+        padding-bottom: 10px;
+    }
+}
+@media(max-width:480px) {
+    .slider__text-inner {
+        left: 153px;
+     }
+     .gallery__car-img {
+        width: 50px;
+        height: 50px;
+      }
+   
+}
+@media(max-width:430px) {
+   
+     .drive__cars-content .slick-prev {
+        top: 270px;
+        right:4px;
+      }
+      .drive__cars-content .slick-next {
+        top: 270px;
+        left: 4px;
+      }
+   
+}
+@media (max-width: 414px){
+.slider__text-inner {
+    left: 126px;
+}
+}
+@media (max-width: 412px){
+    .drive__cars-content .slick-next {
+        top: 270px;
+        left: -9px;
+    }
+    .drive__cars-content .slick-prev {
+        top: 270px;
+        right:-9px;
+      }
+      .about {
+        padding-bottom: 25px;
+        &__info-items {
+          gap: 10px;
+        }
+    }
+    }
+@media(max-width:390px) {
+    .slider__text-inner {
+        left: 110px;
+     }
+     .autocars {
+        padding-bottom: 15px;
+    }
+    .drive__cars-content .slick-prev {
+        top: 270px;
+        right:-9px;
+      }
+      .drive__cars-content .slick-next {
+        top: 270px;
+        left: -9px;
+      }
+      .drive__item-bottom {
+        font-size: 10px;
+      }
+}
+@media (max-width: 360px){
+.drive__cars-content .slick-next {
+    top: 270px;
+    left: -14px;
+}
+.drive__cars-content .slick-prev {
+    top: 270px;
+    right:-14px;
+  }
+}
+
+@media (max-width: 768px) {
+    .navbar__wrap .menu {
+      display: none;
+    }
+}
+
+@media (max-width: 682px) {
+ .btn-up {
+  right: 170px;
+ }
+}
+@media (max-width: 551px) {
+  .btn-up {
+    left: 44px;
+  }
+  .footer__title {
+    font-size: 20px;
+  }
+ }
+ @media(max-width:390px) {
+  .slick-prev {
+    top: 209px;
+    right: 26px;
+  }
+  .slick-next {
+    top: 209px;
+    left: 25px;
+}
+ }
+
+
+ @media(max-width:390px) {
+  .btn-up {
+    width: 57px;
+    height: 29px;
+    left: 20px;
+  }
+    .slider__text-inner {
+      left: 73px;
+  }
+.drive__item-title {
+  font-size: 18px;
+}
+.drive__item-text {
+  font-size: 12px;
+}
+.drive__item-bottom {
+  font-size: 8px;
+  width: 150px;
+}
+.drive__cars-content .slick-prev {
+  right: 0;
+}
+.drive__cars-content .slick-next {
+  left: 0;
+}
+
+
+.about__info-item {
+  font-size: 10px;
+  span {
+    font-size: 5px;
+  }
+}
+.about__info-items {
+  gap: 5px;
+}
+.about__info-title {
+  font-size: 10px;
+}
+
+.about__info {
+  padding: 5px;
+}
+.form {
+  &__program {
+    padding-bottom: 25px;
+}
+  &__inner {
+  display: block;
+  margin: 0 auto;
+  }
+  &__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin-left: 25px;
+  }
+}
+.form__img {
+  width: 250px;
+  height: 200px;
+}
+.form__title {
+  font-size: 25px;
+}
+.form__program-name {
+  width: 265px;
+}
+.form__program-lastname {
+  width: 265px;
+}
+.form__program-btn {
+  width: 265px;
+}
+ }
+
+ @media(max-width:366px) {
+  .slider__text-inner {
+    left: 99px;
+  }
+ }
